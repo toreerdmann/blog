@@ -6,6 +6,6 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
     site: "https://toreerdmann.github.io",
-    base: "/blog"
+    base: "/blog",
 	integrations: [mdx(), sitemap()],
 });
