@@ -3,8 +3,7 @@ name: Deploy to gh pages
 on:
   push:
     branches: [main]
-
-  workflow_dispath:
+  workflow_dispath: 
 
 permissions:
   contents: read
