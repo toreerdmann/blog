@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: 24
           package-manager: npm
+        env:
+          NODE_ENV: production
 
   deploy:
     needs: build
