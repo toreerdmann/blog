@@ -19,7 +19,7 @@ jobs:
         uses: withastro/action@v3
         with:
           node-version: 24
-          package-manageer: npm
+          package-manager: npm
 
   deploy:
     needs: build
