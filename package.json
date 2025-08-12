@@ -1,18 +1,21 @@
 {
-  "name": "blog-astro",
-  "type": "module",
-  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.3",
-    "@astrojs/rss": "^4.0.12",
-    "@astrojs/sitemap": "^3.4.2",
-    "astro": "^5.12.9",
-    "sharp": "^0.34.2"
+    "date-fns": "^4.1.0",
+    "firebase": "^12.1.0",
+    "gray-matter": "^4.0.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

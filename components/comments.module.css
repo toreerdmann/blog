@@ -1,0 +1,67 @@
+.container {
+    margin-top: 2rem;
+}
+
+.input, .textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: #0070f3;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0053ba;
+}
+
+.commentsList {
+    margin-top: 1rem;
+}
+
+.comment {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.commentHeader {
+    margin-bottom: 0.5rem;
+}
+
+.commentHeader strong {
+    margin-right: 0.5rem;
+}
+
+.commentHeader span {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.replyButton {
+    background: none;
+    border: none;
+    color: #0070f3;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.replyForm {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.replies {
+    margin-left: 2rem;
+    border-left: 2px solid #eee;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
