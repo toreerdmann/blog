@@ -16,7 +16,7 @@ with github accounts to comment.
 
 Since I recently learned about next.js through a project at work, I'd thought
 why not use that to write my own comments component and learn more about react?
-As the blog would we build into a static page, I chose firebase to persist the
+As the blog is compiled into a static page, I chose firebase to persist the
 comments, as I've used that in the past to collect data during my time as a
 researcher (more on that another time).
 
