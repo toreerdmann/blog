@@ -19,7 +19,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export { db };
+// export { db };
 
 const Comment = ({ comment, onReply }) => {
   const [showReplyForm, setShowReplyForm] = useState(false);
